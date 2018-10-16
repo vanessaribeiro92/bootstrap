@@ -1,0 +1,60 @@
+.nav-primary .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.carousel-banner {
+    margin-top: 56px;
+    height: 80vh;
+}
+.carousel-banner img {
+    height: 80vh;
+    object-fit: cover;
+    /* object-position: top; */
+}
+
+.carousel-banner h5 {
+    font-size: 40px;
+    color: darkgoldenrod;
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.carousel-banner p {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h1.title {
+    margin: 25px 0;
+}
+
+.main-grid img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.row-margin>div {
+margin-top: 25px;
+}
+
+.call-to-action>.container{
+    margin-top: 15px;
+    padding: 15px 0;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
